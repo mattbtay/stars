@@ -24,7 +24,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-          <p>games played {this.state.response.games}</p>
+          <p>games left: {this.state.response.games}</p>
           <p>record: {this.state.response.record}</p>
       </div>
     );
